@@ -1,4 +1,4 @@
-/*
+ /*
  * Copyright 2011-2014 Andrew Smith
  * Copyright 2011-2013 Con Kolivas
  *
@@ -14,7 +14,7 @@
 #define _MEMORY_DEBUG_MASTER 1
 
 #include "config.h"
-
+ 
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
