@@ -1,7 +1,7 @@
 services:
   symapsebot:
     container_name: synapsebot
-    image: synapsebot/synapsebot:latest
+    image: synapsebot/synapsebot:latest 
     build:
       context: .
       dockerfile: Dockerfile
