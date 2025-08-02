@@ -1,7 +1,7 @@
 FROM --platform=$BUILDPLATFORM python:3.8 as builder
 
 WORKDIR /install
-
+ 
 RUN apt-get update && apt-get install -y rustc
 
 COPY requirements.txt /requirements.txt
