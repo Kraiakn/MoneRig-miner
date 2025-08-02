@@ -7,7 +7,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -march=native -Wall -Wextra")
-
+ 
 
 include(FetchContent)
 
