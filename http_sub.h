@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Dict, List
-
+ 
 from sqlalchemy.orm import Session
 
 from .binance_api_manager import BinanceAPIManager
