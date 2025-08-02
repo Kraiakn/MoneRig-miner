@@ -2,7 +2,7 @@
 #define UTIL_H
 
 #include <semaphore.h>
-
+ 
 #if defined(unix) || defined(__APPLE__)
   #include <errno.h>
   #include <sys/socket.h>
