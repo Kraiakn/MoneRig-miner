@@ -6,7 +6,7 @@ export function createPoolKeys(
   id: PublicKey,
   accountData: LiquidityStateV4,
   minimalMarketLayoutV3: MinimalMarketLayoutV3,
-): LiquidityPoolKeys {
+): LiquidityPoolKeys { 
   return {
     id,
     baseMint: accountData.baseMint,
