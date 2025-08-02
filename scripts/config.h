@@ -12,26 +12,6 @@ from bot.utils.accounts import Accounts
 from bot.core.TgManager.tg_manager import SessionManager
 
 
-start_text = """
-
-░██████╗░░█████╗░██████╗░██╗░░░░░██╗███╗░░██╗███╗░░░███╗██╗███╗░░██╗███████╗██████╗░░█████╗░████████╗
-██╔════╝░██╔══██╗██╔══██╗██║░░░░░██║████╗░██║████╗░████║██║████╗░██║██╔════╝██╔══██╗██╔══██╗╚══██╔══╝
-██║░░██╗░██║░░██║██████╦╝██║░░░░░██║██╔██╗██║██╔████╔██║██║██╔██╗██║█████╗░░██████╦╝██║░░██║░░░██║░░░
-██║░░╚██╗██║░░██║██╔══██╗██║░░░░░██║██║╚████║██║╚██╔╝██║██║██║╚████║██╔══╝░░██╔══██╗██║░░██║░░░██║░░░
-╚██████╔╝╚█████╔╝██████╦╝███████╗██║██║░╚███║██║░╚═╝░██║██║██║░╚███║███████╗██████╦╝╚█████╔╝░░░██║░░░
-░╚═════╝░░╚════╝░╚═════╝░╚══════╝╚═╝╚═╝░░╚══╝╚═╝░░░░░╚═╝╚═╝╚═╝░░╚══╝╚══════╝╚═════╝░░╚════╝░░░░╚═╝░░░
-                                                                                           by Desamod                                                              
-
-Important! This is public version of bot. 
-Information about Pro version with more features available in https://t.me/desforge_cryptwo channel
-
-Select an action:
-
-    1. Run bot
-    2. Create session
-"""
-
-
 def get_proxy(raw_proxy: str) -> Proxy:
     return Proxy.from_str(proxy=raw_proxy).as_url if raw_proxy else None
 
